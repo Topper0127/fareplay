@@ -1,8 +1,5 @@
 "use client";
 
-import Background from "/public/assets/img/background.png";
-import { useState } from "react";
-
 export default function Home() {
     return (
         <>
@@ -68,23 +65,8 @@ export default function Home() {
                         }}
                     ></div>
                 </div>
-                <div
-                    style={{
-                        marginTop: "auto",
-                        width: "100%",
-                        height: 600,
-                        background: "url(/assets/img/background.png) no-repeat",
-                        backgroundSize: "100% 100%",
-                        zIndex: 10,
-                    }}
-                >
-                    <div
-                        className="grid justify-items-center w-fit"
-                        style={{
-                            marginTop: "-100px",
-                            marginLeft: "calc(50% + 100px)",
-                        }}
-                    >
+                <div className="content-style">
+                    <div className="grid justify-items-center w-fit description">
                         <p
                             className="text-[48px] m-0 p-0"
                             style={{
